@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Playfair+Display&family=Poppins:ital,wght@0,200;1,200&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+     /* css reset */
+     
+     body{
+      font-family: 'Playfair Display', serif;
+       color: white;
+       margin: px;
+       padding: 0px;
+       background: url(gym2.jpg) no-repeat center ;
+       height: auto;
+      /* background-size: ; */
+      background-size: cover;
+      background-position:center;
+      
+     }
+     .left{
+       
+      position: absolute;
+       left: 35px;
+       top: 20px;
+       display: inline-block;
+      /* border: 2px solid red; */
+     }
+     .left div{
+       line-height: 19px;
+       font-size: 26px;
+       text-align: center;
+
+     }
+     .mid{
+       display: block;
+       margin: 29px auto;
+       width: 45%;
+      /* border: 2px solid green; */
+      font-size: 18px;
+
+     }
+     .right{
+       position: absolute;
+       right: 35px;
+       top: 43px;
+       /* border: 2px solid yellow; */
+       display: inline-block;
+     }
+     .navbar{
+       display: inline-block;
+     }
+     .navbar li{
+       display: inline-block;
+       font-size: 18px;
+     }
+     .navbar li a{
+       color:white;
+       text-decoration: none;
+       padding: 34px 23px; 
+
+     }
+     .navbar li a:hover, .navbar a.active{
+       text-decoration: underline;
+       color:#a87da8;
+       
+  
+     }
+     .btn{
+      font-family: 'Playfair Display', serif;
+        margin: 0px 9px;
+        background-color: hsl(240, 87%, 59%);
+        color:white;
+        padding: 6px 15px;
+        border: 2px solid black;
+        border-radius: 18px;
+        font-size: 16px;
+
+
+  
+
+    }
+    .btn:hover{
+      background-color: rgb(236, 179, 189);
+    }
+    .container{
+      /* border: 2px solid red; */
+      margin: 90px 65px;
+      padding: 75px;
+      width: 33%;
+      display: block;
+      border-radius: 23px;
+    }
+    .form-group input{
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      display: block;
+      width: 85%;
+      margin: 3px auto;
+      padding:  10px;
+      border: 2px solid black;
+      margin-block-end: 16px;
+      border-radius: 18px;
+      font-size: 18px;
+
+
+    }
+    h2{
+      text-align: center;
+      font-size: 26px;
+    }
+    .container button{
+    font-family: 'Playfair Display', serif;
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    padding: 10px;
+
+    }
+    
+  
+    
+    </style>
+<body>
+    <header class="header">
+      <!-- left box foor logo --> 
+       <div class="left">
+        <img src="#" alt="">
+        <div>vishalfitness</div>
+
+
+         </div>
+         <!-- mid box for navbar -->
+         <div class="mid">
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a> </li>
+            <li><a href="#">Fitness Calculation</a></li>
+            <li><a href="#">Conatct Us</a></li>     
+                        </ul>
+         </div>
+
+       <!-- right box for buttons -->
+<div class="right">
+<button class="btn">Call Us Now</button>
+<button class="btn">Email Us</button>
+</div>
+    </header>
+
+  <div class="container">
+    <h2>Join the best Gym of Bhopal Now</h2>
+    <form action="noaction.php">
+    <div class="form-group">
+      <input type="text" placeholder="Enter your Name">
+ </div>
+ <div class="form-group">
+  <input type="text" placeholder="Enter your Age">
+</div>
+<div class="form-group">
+  <input type="text" placeholder="Enter your Gender">
+</div>
+<div class="form-group">
+  <input type="text" placeholder="Enter your Locality">
+</div>
+<br>
+<button class="btn">Submit</button>
+ 
+
+
+    </form>
+  </div>
+ 
+</body>
+</html>
